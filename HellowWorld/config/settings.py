@@ -1,7 +1,7 @@
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
+BASE_DIR = Path(/home/ubuntu/django/Django-Project).resolve(strict=True).parent.parent
 
 
 # Quick-start development settings - unsuitable for production
@@ -13,7 +13,7 @@ SECRET_KEY = '2ajeki2!_b3ib0v=bbcfjb771nucg1&%ugdp5o&pz)e)1e)iof'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ec2-13-234-186-220.ap-south-1.compute.amazonaws.com
 
 
 # Application definition
